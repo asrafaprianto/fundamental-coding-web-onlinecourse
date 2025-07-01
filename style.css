@@ -1,0 +1,70 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.wrapper {
+  width: 1350px;
+  margin: auto;
+  background: blanchedalmond;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  line-height: 80px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo a {
+  text-decoration: none;
+  font-family: "nunito";
+  font-size: 30px;
+  font-weight: bold;
+  color: #00809d;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  float: left;
+  padding: 0 16px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ff7601;
+}
+
+.menu a.tbl-biru {
+  background-color: #00809d;
+  padding: 16px 24px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.menu a.tbl-biru:hover {
+  background-color: #ff7601;
+}
+
+.menu {
+  float: right;
+}
